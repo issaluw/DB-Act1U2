@@ -16,7 +16,7 @@ El primer paso para comenzar con la manipulación de una base de datos, es reali
 
 </div>
 
-## Creación de la tabla
+## 2.1 Creación de la tabla
 
 Para definir la estructura de la entidad comida, se ejecuta un script SQL a través del método cur.executescript() en Python. Se establece la columna id_platillo como clave primaria autoincrementable, junto con los atributos nombre, categoria, precio (con formato decimal de precisión 6,2) y el estado disponible con un valor booleano predeterminado en TRUE. Tras confirmar la transacción con conn.commit(), la consola confirma la creación exitosa.
 
@@ -26,7 +26,7 @@ Para definir la estructura de la entidad comida, se ejecuta un script SQL a trav
 
 </div>
 
-## INSERT
+## 2.2 INSERT
 
 Se realiza el poblamiento inicial de la tabla ejecutando una consulta INSERT INTO con tres registros correspondientes a distintos platillos (Chilaquiles, tacos y torta). Inmediatamente después, se valida la persistencia de los datos mediante una consulta de verificación (SELECT * FROM comida), confirmando que los valores numéricos y booleanos (donde 1 representa true y 0 representa false) se han almacenado correctamente en cada columna.
 
@@ -36,7 +36,7 @@ Se realiza el poblamiento inicial de la tabla ejecutando una consulta INSERT INT
 
 </div>
 
-## UPDATE
+## 2.3  UPDATE
 
 Se aplica una sentencia de actualización masiva mediante la instrucción UPDATE comida SET precio = precio * 2;, incrementando al doble el costo de todos los platillos registrados en la tabla. Al ejecutar la consulta de comprobación SELECT *, se observa la modificación reflejada en la columna precio: Chilaquiles pasa de 56.60 a 113.20, tacos de 65.48 a 130.96, y torta de 25.50 a 51.00.
 
@@ -46,7 +46,7 @@ Se aplica una sentencia de actualización masiva mediante la instrucción UPDATE
 
 </div>
 
-## DELETE
+## 2.4 DELETE
 
 Para evaluar la remoción condicional de datos, se ejecuta la sentencia DELETE FROM comida WHERE categoria = 'desayuno';. Esta instrucción filtra y remueve de la base de datos el registro del platillo torta, cuya categoría coincidía con la condición especificada. La consulta de validación posterior demuestra que la tabla conserva únicamente dos registros pertenecientes a la categoría comida.
 
