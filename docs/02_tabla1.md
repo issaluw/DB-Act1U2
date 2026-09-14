@@ -4,7 +4,7 @@ El primer paso para comenzar con la manipulación de una base de datos, es reali
 
 <div align="center">
 
-![Conexion](<../assets/1_conexionDB.png>)
+![Conexion](<../assets/imagenesTabla1/1_conexionDB.png>)
 
 </div>
 
@@ -12,7 +12,7 @@ El primer paso para comenzar con la manipulación de una base de datos, es reali
 
 <div align="center">
 
-![ejercicio 1](<../assets/ejercicio1.png>)
+![ejercicio 1](<../assets/imagenesTabla1/ejercicio1.png>)
 
 </div>
 
@@ -22,7 +22,7 @@ Para definir la estructura de la entidad comida, se ejecuta un script SQL a trav
 
 <div align="center">
 
-![crecion de tabla](<../assets/2_creacionTabla1.png>)
+![crecion de tabla](<../assets/imagenesTabla1/2_creacionTabla1.png>)
 
 </div>
 
@@ -32,7 +32,7 @@ Se realiza el poblamiento inicial de la tabla ejecutando una consulta INSERT INT
 
 <div align="center">
 
-![insert](<../assets/3_insertTabla1.png>)
+![insert](<../assets/imagenesTabla1/3_insertTabla1.png>)
 
 </div>
 
@@ -42,7 +42,7 @@ Se aplica una sentencia de actualización masiva mediante la instrucción UPDATE
 
 <div align="center">
 
-![update](<../assets/4_updateTabla1.png>)
+![update](<../assets/imagenesTabla1/4_updateTabla1.png>)
 
 </div>
 
@@ -52,7 +52,7 @@ Para evaluar la remoción condicional de datos, se ejecuta la sentencia DELETE F
 
 <div align="center">
 
-![delete](<../assets/5_deleteTabla1.png>)
+![delete](<../assets/imagenesTabla1/5_deleteTabla1.png>)
 
 </div>
 
