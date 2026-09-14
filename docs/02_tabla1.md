@@ -56,4 +56,4 @@ Para evaluar la remoción condicional de datos, se ejecuta la sentencia DELETE F
 
 </div>
 
-[⬅️ Regresar a la introduccion](01_introduccion.md) | [Siguiente: Ejercicio 2 ➡️](02_tabla2.md)
+[⬅️ Regresar a la introduccion](01_introduccion.md) | [Siguiente: Ejercicio 2 ➡️](03_tabla2.md)
