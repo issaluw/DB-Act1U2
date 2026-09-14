@@ -1,17 +1,17 @@
 <div align="center">
 
 # INSTITUTO TECNOLÓGICO SUPERIOR DE MISANTLA
-### ING EN SISYTEMAS COMPUTACIONALES
+### ING EN SISTEMAS COMPUTACIONALES
 
 ---
 
 ##  Taller de Bases de Datos
-**Tarea unidad 2:** Creación de tablas 
+**Tarea unidad 2:** Creación de tablas (Reporte) 
 
 ---
 
 ### Alumno:
-| Nombre Completo | Número de Control
+| Nombre completo | Número de control
 | :--- | :---: |
 | **Isaac Santos Luna** | 242T0094 | 
 
@@ -25,9 +25,9 @@
 
 </div>
 
-##  Índice de Contenido
+##  Índice de contenido
 
-1. [Introducción General](docs/01_introduccion.md)
+1. [Introducción general](docs/01_introduccion.md)
 
 2. [Creación de tabla 1](docs/02_tabla1.md)
    * 2.1 Insert
